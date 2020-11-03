@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.github.fatihsokmen.lawyerly.lawyers.LawyersOverviewFragment"
+        android:label="@string/title_lawyers"
+        tools:layout="@layout/fragment_lawyers_overview" />
+
+    <fragment
+        android:id="@+id/navigation_lawyer_details"
+        android:name="com.github.fatihsokmen.lawyerly.details.LawyerDetailsFragment"
+        android:label="@string/title_lawyer_details"
+        tools:layout="@layout/fragment_lawyers_overview" />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.github.fatihsokmen.lawyerly.home.EmptyFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_empty" />
+
+    <fragment
+        android:id="@+id/navigation_favs"
+        android:name="com.github.fatihsokmen.lawyerly.home.EmptyFragment"
+        android:label="@string/title_favourites"
+        tools:layout="@layout/fragment_empty" />
+
+    <fragment
+        android:id="@+id/navigation_balance"
+        android:name="com.github.fatihsokmen.lawyerly.home.EmptyFragment"
+        android:label="@string/title_balance"
+        tools:layout="@layout/fragment_empty" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.github.fatihsokmen.lawyerly.home.EmptyFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_empty" />
+
+
+</navigation>

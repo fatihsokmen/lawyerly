@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lawyerly</string>
+    <string name="title_lawyers">Home</string>
+    <string name="title_lawyer_details">Lawyer\'s Detail</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="title_balance">Balance</string>
+    <string name="title_settings">Settings</string>
+    <string name="free_consultation_banner">1st FREE CONSULTATION Available</string>
+    <string name="rating">Rating</string>
+    <string name="reviews">Reviews</string>
+    <string name="ranking">Ranking</string>
+    <string name="description">Description</string>
+    <string name="another_info">Another Info</string>
+    <string name="verified_background">Verified Background</string>
+    <string name="schedule_lawyer">Schedule Lawyer</string>
+
+    <string-array name="title_lawyers_tab">
+        <item>Featured</item>
+        <item>All</item>
+        <item>Favs</item>
+    </string-array>
+</resources>
